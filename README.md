@@ -11,8 +11,8 @@ FrontEnd:
   - npm run dev
 
 Flask:
-  - python -m venv venv
-  - pip install -r requirements.txt
+  - python -m venv venv (yang ini gk ush karena udh ada venv)
   - venv\Scripts\activate (windows)
+  - pip install -r requirements.txt
   - source venv/bin/activate (macOS)
   - python server.py
