@@ -48,8 +48,8 @@ const HomePage = () => {
     }, []);
 
     return (
-        <div className="min-h-screen bg-black text-white">
-            <div className="container mx-auto px-4 py-8">
+        <div className="min-h-screen bg-black text-white" style={{ backgroundImage: "url('/src/assets/background.jpg')", backgroundSize: 'cover' }}>
+            <div className="container mx-auto px-4 py-8" >
                 <div className="max-w-4xl mx-auto">
                     <div className="text-center mb-12">
                         <h1 className="text-5xl font-bold mb-4 text-white">
